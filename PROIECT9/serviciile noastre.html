@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviciile Noastre</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #007bff;
+            border-bottom: 3px solid #ffc107;
+            padding-bottom: 10px;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            display: inline-block;
+        }
+        .servicii-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .categorie-serviciu {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .categorie-serviciu h2 {
+            color: #28a745; 
+            font-size: 1.5em;
+            margin-top: 0;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #e9ecef;
+        }
+        .servicii-lista {
+            list-style-type: none; 
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        .servicii-lista li {
+            padding: 8px 0;
+            font-size: 1.1em;
+            border-bottom: 1px dotted #ccc;
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        .servicii-lista li:last-child {
+            border-bottom: none;
+        }
+
+        /* Simbolul de bifă */
+        .servicii-lista li::before {
+            content: "✓";
+            color: #007bff;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1>Serviciile Noastre Auto</h1>
+
+    <div class="servicii-container">
+        
+        <div class="categorie-serviciu">
+            <h2>Mecanică Generală și Revizii (Popescu Ion)</h2>
+            <ul class="servicii-lista">
+                <li>Schimb de ulei și filtre (motor, aer, combustibil, polen).</li>
+                <li>Revizii periodice complete conform specificațiilor producătorului.</li>
+                <li>Verificări și inspecții tehnice preliminare.</li>
+                <li>Înlocuire consumabile și întreținere generală.</li>
+            </ul>
+        </div>
+
+        <div class="categorie-serviciu">
+            <h2>Diagnoză și Electronică Auto (Ionescu Marian & Georgescu Vasile)</h2>
+            <ul class="servicii-lista">
+                <li>Diagnoză computerizată avansată și resetare erori.</li>
+                <li>Reparații complexe ale instalației electrice auto.</li>
+                <li>Diagnoză și reparații sisteme de iluminat (faruri, stopuri).</li>
+                <li>Verificarea și înlocuirea demaroarelor și alternatoarelor.</li>
+            </ul>
+        </div>
+        
+        <div class="categorie-serviciu">
+            <h2>Reparații Motor (Marian Mihai)</h2>
+            <ul class="servicii-lista">
+                <li>Reparații capitale și recondiționare motoare (pe benzină și diesel).</li>
+                <li>Asamblare precisă a componentelor interne ale motorului.</li>
+                <li>Înlocuire kit distribuție și pompă de apă.</li>
+            </ul>
+        </div>
+
+        <div class="categorie-serviciu">
+            <h2>Transmisii și Ambreiaje (Stan Mihai)</h2>
+            <ul class="servicii-lista">
+                <li>Reparații și întreținere cutii de viteze manuale.</li>
+                <li>Reparații cutii de viteze automate.</li>
+                <li>Înlocuire kit ambreiaj și volanta.</li>
+                <li>Reparații diferențiale.</li>
+            </ul>
+        </div>
+        
+        <div class="categorie-serviciu">
+            <h2>Sisteme de Frânare (Dumitru Ioan)</h2>
+            <ul class="servicii-lista">
+                <li>Verificare, înlocuire plăcuțe și discuri de frână.</li>
+                <li>Reparații sisteme hidraulice (cilindri, pompe, conducte).</li>
+                <li>Reglarea și reparația frânei de mână.</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
